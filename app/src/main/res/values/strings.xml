@@ -1,0 +1,18 @@
+<resources>
+  <string name="app_name" description="Title of app. [CHAR LIMIT=NONE]">Google Play services Tasks Interop</string>
+  <!-- Strings used for fragments for navigation -->
+  <string name="first_fragment_label" description="Navigation String. [CHAR LIMIT=NONE]">Tasks Interop</string>
+
+  <string name="placeholder_txt" description="Text area placeholder text. [CHAR LIMIT=NONE]">Welcome to Google Play services Tasks Interoperability Sample App!</string>
+  <string name="waiting_txt" description="Waiting text. [CHAR LIMIT=NONE]">Waiting on response...</string>
+
+  <string name="tasks_txt" description="Simple task textarea text. [CHAR LIMIT=NONE]">Completed Google Play services Task</string>
+  <string name="ktx_txt" description="Kotlin coroutines textarea text. [CHAR LIMIT=NONE]">Completed KTX Coroutine Task</string>
+  <string name="guava_txt" description="Guava textarea text. [CHAR LIMIT=NONE]">Completed Guava ListenableFuture Task</string>
+  <string name="rx_txt" description="RxJava textarea text. [CHAR LIMIT=NONE]">Completed RxJava Observable Task</string>
+
+  <string name="tasks_button_txt" description="Simple task button text. [CHAR LIMIT=NONE]">Google Play services Task</string>
+  <string name="ktx_button_txt" description="Kotlin coroutines button text. [CHAR LIMIT=NONE]">KTX Coroutine</string>
+  <string name="guava_button_txt" description="Guava button text. [CHAR LIMIT=NONE]">Guava ListenableFuture</string>
+  <string name="rx_button_txt" description="RxJava button text. [CHAR LIMIT=NONE]">RxJava Observable</string>
+</resources>
