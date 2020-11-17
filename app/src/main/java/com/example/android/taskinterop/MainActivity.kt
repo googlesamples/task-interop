@@ -128,7 +128,7 @@ fun <T> taskToListenableFuture(task: Task<T>): ListenableFuture<T> {
     }
   }
 }
-// [END  guava_conversion]
+// [END guava_conversion]
 
 /** Extension on Task for conversion to ListenableFuture. */
 @Keep
