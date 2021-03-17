@@ -15,4 +15,5 @@
   <string name="ktx_button_txt" description="Kotlin coroutines button text. [CHAR LIMIT=NONE]">KTX Coroutine</string>
   <string name="guava_button_txt" description="Guava button text. [CHAR LIMIT=NONE]">Guava ListenableFuture</string>
   <string name="rx_button_txt" description="RxJava button text. [CHAR LIMIT=NONE]">RxJava Observable</string>
+  <string name="license_button_txt" description="See licenses button text. [CHAR LIMIT=NONE]">See Licenses</string>
 </resources>

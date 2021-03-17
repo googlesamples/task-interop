@@ -14,6 +14,7 @@
  */
 package com.example.android.taskinterop
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
@@ -23,6 +24,7 @@ import androidx.concurrent.futures.CallbackToFutureAdapter
 import androidx.concurrent.futures.DirectExecutor
 import androidx.core.content.ContextCompat
 import androidx.lifecycle.lifecycleScope
+import com.google.android.gms.oss.licenses.OssLicensesMenuActivity
 import com.google.android.gms.tasks.Task
 import com.google.android.gms.tasks.TaskCompletionSource
 // [START guava_import]
@@ -99,6 +101,10 @@ class MainActivity : AppCompatActivity() {
       // [END_EXCLUDE]
       simpleTask.toSingle(this).subscribe { result -> textView.text = result }
       // [END rx_task]
+    }
+
+    findViewById<Button>(R.id.license_button).setOnClickListener {
+      startActivity(Intent(this, OssLicensesMenuActivity::class.java))
     }
   }
 

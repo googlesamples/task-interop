@@ -42,6 +42,7 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@id/tasks_button"
       app:layout_constraintVertical_bias="0.087" />
+
   <Button
       android:id="@+id/rx_button"
       android:layout_width="wrap_content"
@@ -53,6 +54,7 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@id/guava_button"
       app:layout_constraintVertical_bias="0.191" />
+
   <Button
       android:id="@+id/guava_button"
       android:layout_width="wrap_content"
@@ -64,6 +66,18 @@
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toBottomOf="@id/ktx_button"
       app:layout_constraintVertical_bias="0.122" />
+
+  <Button
+      android:id="@+id/license_button"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/license_button_txt"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@id/rx_button"
+      app:layout_constraintVertical_bias="0.255" />
+
   <TextView
       android:id="@+id/textview_first"
       android:layout_width="wrap_content"
